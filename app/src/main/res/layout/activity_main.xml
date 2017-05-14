@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="giuseppedonadio.com.tictactoe.MainActivity">
+
+    <TableLayout
+        style="@style/TableLayout">
+
+        <TableRow
+            style="@style/TableRow">
+
+            <Button
+                android:id="@+id/button1"
+                style="@style/Button" />
+
+            <Button
+                android:id="@+id/button2"
+                style="@style/Button" />
+
+            <Button
+                android:id="@+id/button3"
+                style="@style/Button" />
+        </TableRow>
+
+        <TableRow
+            style="@style/TableRow">
+
+            <Button
+                android:id="@+id/button4"
+                style="@style/Button" />
+
+            <Button
+                android:id="@+id/button5"
+                style="@style/Button" />
+
+            <Button
+                android:id="@+id/button6"
+                style="@style/Button" />
+
+        </TableRow>
+
+        <TableRow
+            style="@style/TableRow">
+
+            <Button
+                android:id="@+id/button8"
+                style="@style/Button" />
+
+            <Button
+                android:id="@+id/button7"
+                style="@style/Button" />
+
+            <Button
+                android:id="@+id/button9"
+                style="@style/Button" />
+
+        </TableRow>
+
+        <TableRow style="@style/TableRow">
+
+            <TextView
+                android:id="@+id/displayText"
+                style="@style/TableRow"
+                android:padding="10dp"
+                android:text="Player's Turn" />
+
+        </TableRow>
+
+        <TableRow style="@style/TableRow">
+
+            <Button
+                android:id="@+id/button10"
+                style="@style/TableRow"
+                android:padding="10dp"
+                android:text="New Game" />
+        </TableRow>
+    </TableLayout>
+
+</android.support.constraint.ConstraintLayout>
